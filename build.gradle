@@ -22,7 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-    implementation 'org.web3j:core:4.10.0'
+    implementation 'org.web3j:core:4.12.3'
 }
 
 tasks.named('test') {
